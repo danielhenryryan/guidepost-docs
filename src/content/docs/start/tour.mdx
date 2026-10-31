@@ -1,0 +1,67 @@
+---
+title: A tour of the window
+description: The three workspaces, the title bar, and where to find everything else.
+---
+
+import Screenshot from '../../../components/Screenshot.astro';
+
+Guidepost has one main window. One presentation is open at a time, and it holds the whole service.
+
+## Three workspaces
+
+The switcher in the middle of the title bar moves between three workspaces. Each has its own accent color, so you can tell at a glance where you are.
+
+| Workspace | What it's for | Shortcut |
+|---|---|---|
+| <span class="ws ws-design">Design</span> | Build and edit the presentation: add slides, arrange them, choose how they look. | <kbd>⌘1</kbd> |
+| <span class="ws ws-present">Present</span> | Run the service live: go live, move through slides, blank the screen, show messages. | <kbd>⌘2</kbd> |
+| <span class="ws ws-library">Library</span> | Manage songs, media, themes, saved slides and Bibles that every presentation can use. | <kbd>⌘3</kbd> |
+
+Present is available once a presentation is open.
+
+<Screenshot
+  name="design-drawer"
+  alt="The Design workspace with the Library drawer, the slide list, the canvas in the middle and the inspector on the right."
+  caption="Design: the Library drawer, the slide list, the canvas, and the inspector."
+/>
+
+<Screenshot
+  name="present-live"
+  alt="The Present workspace while live, with the Program and Up Next monitors and the control rack on the right."
+  caption="Present while live: the slide list, the monitors, the song map and the control rack."
+/>
+
+## The title bar
+
+- **Left:** the presentation's name. A dot beside it means there are unsaved changes. Click the name to rename the presentation.
+- **Center:** the workspace switcher.
+- **Right:**
+  - a license badge, when there's something to know (for example, **Beta**);
+  - an activity indicator, while something long is running, such as importing a video. Click it to see progress or cancel;
+  - **Search** (<kbd>⌘K</kbd>), which finds slides, songs, scripture, media, commands and settings. See [Search](/reference/search/);
+  - **Settings** (<kbd>⌘,</kbd>).
+
+## The Live bar
+
+While a service is live, a slim amber bar appears under the title bar in Design and Library. It shows what the audience sees, the slide's name, and how long you've been live, with **Prev**, **Next**, **Blank** and **Return to Present**. You can keep working in Design or Library without losing track of the service. See [Changing the service while live](/present/live-changes/).
+
+## Notifications
+
+Guidepost reports what happened in small notices in the corner of the window. Many carry one action, such as **Undo** or **Show**. Errors stay until you dismiss them; other notices fade on their own.
+
+Problems that need attention while live, such as a disconnected projector, appear as a banner that stays until the problem is resolved or you dismiss it.
+
+## Menus
+
+Every action in Guidepost is also in the menu bar:
+
+- **File:** New, Open, Open Recent, Save, Save As, Close Presentation, Rename.
+- **Edit:** Undo and Redo (with a description of what will change), Duplicate, Copy Style and Paste Style, Group and Ungroup, Skip in Present, and the Arrange submenu for layers.
+- **Format** and **Insert:** text styling and new layers on the canvas.
+- **View:** the three workspaces, Search, the Library drawer, rulers, grid, snap and zoom.
+- **Presentation:** adding slides, Go Live and End Live, Blank, Logo, Freeze, Clear Text, slide navigation, Message, Send Cue, video controls, and **Screens…**.
+- **Help:** help topics, keyboard shortcuts, the sample service, and ways to contact support.
+
+## Settings
+
+Settings opens in its own window with <kbd>⌘,</kbd> or the gear in the title bar. Changes apply immediately. Press <kbd>Esc</kbd> to close it. Use the search field at the top of the sidebar to find any setting by name. See [Settings](/reference/settings/) for every page.

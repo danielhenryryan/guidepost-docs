@@ -1,0 +1,69 @@
+---
+title: Bibles and translations
+description: The built-in translations, adding translations you're licensed to use, and choosing a default.
+---
+
+import { Steps, Aside } from '@astrojs/starlight/components';
+import Screenshot from '../../../components/Screenshot.astro';
+
+## Built-in translations
+
+Guidepost includes two public-domain translations:
+
+- **King James Version (KJV)**, the default.
+- **World English Bible (WEB)**.
+
+Both are available offline, with full-text search in the Scripture picker.
+
+## Add a translation
+
+You can add other translations you're licensed to use, from a file in one of these formats:
+
+- **USFX** (`.xml` or `.usfx`)
+- **OSIS** (`.xml` or `.osis`)
+- **Zefania XML** (`.xml`)
+
+<Steps>
+
+1. In **Library › Bibles**, or **Settings › Scripture & Songs › Bibles**, click **Add translation…**.
+
+2. Choose the file and click **Add**.
+
+3. Check the details Guidepost read from the file: **Abbreviation**, **Language**, **Name** and **Copyright notice**. Fill in anything that's missing.
+
+4. If the translation's copyright requires its notice to be shown with the text, select **Requires attribution**.
+
+5. If the translation has a copyright notice, select **I'm licensed to use this translation**.
+
+6. Click the add button, which names the translation, such as **Add ASV**.
+
+</Steps>
+
+The new translation appears in the Scripture picker's translation menu. Only the 66 books of the Protestant canon are imported; Guidepost tells you if a file contains books it left out.
+
+<Screenshot
+  name="library-bibles"
+  alt="Library › Bibles listing the King James Version as default and bundled, the World English Bible as bundled, and an added American Standard Version, with its details on the right."
+  caption="Library › Bibles with an added translation selected."
+/>
+
+<Aside type="caution">
+Most modern translations are under copyright. Add only translations your church is licensed to project. Help › Adding Bible Translations has more on formats and licensing.
+</Aside>
+
+## Choose the default translation
+
+The default translation is used by the Scripture picker and the verse of the day.
+
+- In **Library › Bibles**, select a translation and click **Make default**.
+- Or in **Settings › Scripture & Songs › Bibles**, click the translation's button.
+
+You can still choose another translation for any passage in the Scripture picker.
+
+## Remove a translation
+
+In **Settings › Scripture & Songs › Bibles**, click **Remove** beside a translation you added. Built-in translations can't be removed. If you remove the default translation, the King James Version becomes the default.
+
+## Copyright notices
+
+A translation that requires attribution shows its copyright notice on scripture slides, according to **Settings › Scripture & Songs › Copyright display**. See [Copyright and CCLI](/reference/copyright/).

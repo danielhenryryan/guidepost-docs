@@ -1,0 +1,76 @@
+---
+title: Scripture
+description: Add Bible passages with the Scripture picker, by reference, by browsing, or by searching the text.
+---
+
+import { Aside } from '@astrojs/starlight/components';
+import Screenshot from '../../../components/Screenshot.astro';
+
+The Scripture picker adds a passage as slides, one verse per slide. It opens from the **Scripture** card in the Add row (<kbd>⇧⌘S</kbd>), from Search, and from Present with <kbd>S</kbd>. It works the same way everywhere.
+
+<Screenshot
+  name="picker-scripture"
+  alt="The Add scripture picker with 'jn 3 16-18' typed, verses 16 to 18 of John 3 highlighted, and a preview on the right."
+  caption="The Scripture picker. The line under the field says what Return will do."
+/>
+
+## Find a passage
+
+### Type a reference
+
+Type into the **Reference or words** field. Guidepost understands most ways of writing a reference:
+
+| You type | You get |
+|---|---|
+| `john 3:16` | John 3:16 |
+| `jn 3 16-18` | John 3:16–18 |
+| `1 cor 15:58` | 1 Corinthians 15:58 |
+| `ps 23` | Psalm 23, the whole chapter |
+| `romans 8:28-31,38` | Romans 8:28–31 and 8:38 |
+| `first john 4:8` | 1 John 4:8 |
+
+The line under the field explains what <kbd>Return</kbd> will do, for example "John 3:16–18 · ↵ adds 3 slides". If something isn't right, it says so: "John has 21 chapters", or "Philippians or Philemon?" when an abbreviation could mean either.
+
+To use a different translation for one passage, add its abbreviation to the reference, for example `john 3:16 WEB`, or choose it from the menu beside the field.
+
+### Browse
+
+Below the field, click **Books**, then a book, then a chapter. Click a verse to choose it, then <kbd>⇧</kbd>-click another verse to choose the range between them. The passage text appears below the grid.
+
+### Search the text
+
+Type words instead of a reference, such as `faith hope love`, and press <kbd>Return</kbd> to search the selected translation. Results show the reference and the matching words. Click one to choose it.
+
+### Recent passages
+
+Your last few passages appear under **Recent**. Click one to choose it again.
+
+## Choose how it looks
+
+The right side of the picker previews the passage's slides with the selected theme.
+
+- **Theme:** keep the presentation's theme, or click another to give this passage its own look. Guidepost remembers your choice for next time.
+- **First slide:** **Verse** starts straight into the text. **Title card** adds a slide with the reference before the first verse.
+- **Long verses:** **Shrink** makes a long verse's text smaller so it fits on one slide. **Split** spreads it across two or more slides, labelled 16a, 16b and so on.
+
+The defaults for these options are in **Settings › Scripture & Songs**.
+
+## Add it
+
+The footer summarizes what will be added, for example "Adding John 3:16–18 (KJV) · 3 slides · Quiet". Click **Add** or press <kbd>Return</kbd>.
+
+A passage of more than one verse becomes a [group](/design/slides-and-groups/) named after the reference.
+
+<Aside>
+While live, the picker's buttons are **Add & Show**, which adds the passage and puts it on screen immediately, and **Add**, which adds it without changing the screen. See [Changing the service while live](/present/live-changes/).
+</Aside>
+
+## Translations
+
+Guidepost includes the **King James Version (KJV)** and the **World English Bible (WEB)**. You can add other translations you're licensed to use. See [Bibles and translations](/library/bibles/).
+
+Translation copyright notices are shown on slides according to **Settings › Scripture & Songs › Copyright display**. See [Copyright and CCLI](/reference/copyright/).
+
+## Editing verse text
+
+Select a Scripture slide to see its **Passage**, **Translation** and **Verse text** in the inspector. You can edit the verse text there or on the canvas; the slide is then marked **Edited**. Click **Revert to source** to restore the original text. To change the passage itself, add it again from the Scripture picker.

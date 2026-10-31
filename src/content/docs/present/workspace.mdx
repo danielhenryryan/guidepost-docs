@@ -1,0 +1,67 @@
+---
+title: The Present workspace
+description: The status bar, slide list, monitors and control rack you use to run a service.
+---
+
+import Screenshot from '../../../components/Screenshot.astro';
+
+Present (<kbd>⌘2</kbd>) is where you run the service. It's built to be read at a glance in a dim booth: every control stays in the same place, and amber always means "live" or "active".
+
+<Screenshot
+  name="present-live"
+  alt="The Present workspace while live on the chorus of Amazing Grace, with Program, Up Next and Then monitors, the song map, and the control rack."
+  caption="Present while live. Program shows exactly what the audience sees."
+/>
+
+## Status bar
+
+Across the top:
+
+- **READY** before the service, or **LIVE** and the time since you went live.
+- The name of what's on screen, such as "Amazing Grace · Chorus".
+- Badges for anything active: **BLANK**, **LOGO**, **FROZEN**, **CLEAR TEXT**, **MESSAGE** or **COUNTDOWN**.
+- A summary of your screens, such as "Epson Projector · Sanctuary TV (AirPlay) · Stage Display". Click it to open the [Screens panel](/screens/screens-panel/).
+- The number of [network viewers](/screens/network-viewers/) watching.
+
+## Slide list
+
+On the left, the same slides and groups as in Design. Click a slide to show it. Badges mark:
+
+- **LIVE**: the slide the audience sees.
+- **Up next**: the slide **Next** will show.
+- **Starts here**: before going live, the slide the service will start on.
+- **Skipped**: slides that **Next** passes over.
+
+## Monitors
+
+In the middle:
+
+- **Program** shows exactly what the audience screens show, including holds, the message, the countdown, transitions and video.
+- **Up Next** shows the next slide and its **Notes**.
+- **Stage Display** shows a live view of the Stage Display, when one is in use. Otherwise this monitor is called **Then** and shows the slide after Up Next.
+
+To make a different monitor the largest, hover over it and click the expand button. Guidepost remembers your choice.
+
+## Song map
+
+When the live slide is in a song, the song map appears under the monitors. It lists the song's sections in order and highlights the current one. Click a section to jump to it, or use **Repeat** and **Skip**. See [Changing the service while live](/present/live-changes/#repeat-or-skip-a-song-section).
+
+## Control rack
+
+On the right, top to bottom:
+
+| Module | What it does |
+|---|---|
+| **Timers** | Before the service, the [countdown](/present/timers/). While live, the elapsed time and **End Live**. Below that, the [speaker timer](/present/timers/#speaker-timer). |
+| **Stage Display** | [Cues](/present/cues/) for the speaker. Shown only while a Stage Display is connected. |
+| **Scripture** and **Song** | [Add content](/present/live-changes/) during the service. |
+| **Message** | Compose and show a [message](/present/messages/). |
+| **Video** | Play, pause and scrub [video](/present/video/). Shown only when the live slide has video. |
+| **Blank**, **Logo**, **Freeze**, **Clear** | The four [holds](/present/holds/). |
+| **GO LIVE**, then **NEXT** and **PREV** | Start the service, then move through it. The counter shows where you are, such as "4 / 25". |
+
+Modules appear and disappear in fixed positions, so the buttons you use most never move. Clicking a rack button never takes keyboard focus, so <kbd>Space</kbd> always means **Next**.
+
+## Key hints
+
+The footer lists the keys for the most common actions, using your own [shortcuts](/reference/keyboard-shortcuts/) if you've changed them.

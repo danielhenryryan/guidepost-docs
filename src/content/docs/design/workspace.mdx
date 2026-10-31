@@ -1,0 +1,44 @@
+---
+title: The Design workspace
+description: The slide list, canvas, inspector and Library drawer, and what each one is for.
+---
+
+import Screenshot from '../../../components/Screenshot.astro';
+
+Design (<kbd>⌘1</kbd>) is where you build a presentation. It has four areas, left to right.
+
+<Screenshot
+  name="design-drawer"
+  alt="Design with the Library drawer open on the Songs tab, the slide list, the canvas, and the inspector showing a Text slide."
+  caption="Design with the Library drawer open. The inspector on the right shows the selected slide's content and look."
+/>
+
+## Library drawer
+
+A collapsible panel with your Library's **Songs**, **Media**, **Saved** slides and **Themes**, so you can add content without leaving Design. It's hidden at first. To show it, click the **Library** strip on the left edge, or choose **View › Show Library Drawer** (<kbd>⌥⌘L</kbd>).
+
+- Double-click an item to add it. The line at the bottom says where it will go, for example "Adds after slide 4".
+- Drag an item into the slide list to place it exactly, or drag an image or video onto the canvas to add it as a layer on the current slide.
+- On the **Themes** tab, double-click a theme to apply it to the presentation, or to the selected slide's group.
+
+## Slide list
+
+The slides in order, with live thumbnails. Above them, the **+ Add slide** row adds new slides. See [Slides and groups](/design/slides-and-groups/) and [Adding slides](/design/adding-slides/).
+
+## Canvas
+
+The selected slide at full size, where you edit text and move, resize and rotate layers. The toolbar above the canvas changes with what's selected: with nothing selected it adds layers; with a text layer selected it shows font, size, style, alignment and color. See [Editing on the canvas](/design/canvas/).
+
+## Inspector
+
+The full record of whatever is selected:
+
+- **Nothing selected:** the presentation's name, its **Theme** and its **Default transition**. Click **Presentation** above the slide list to get here.
+- **A slide:** its **Content** (the text, passage, song section or media), its **Look** (layout, theme, background, transition) and its **Notes**. Buttons at the bottom save the slide as a [saved slide](/design/saved-slides/) or a [theme](/design/themes/).
+- **A layer:** the list of layers on the slide, and tabs for the layer's **Content**, **Style** and **Position**.
+
+Drag the thin lines between areas to resize them.
+
+## Keyboard focus
+
+Shortcuts act on whichever area has focus. When the slide list has focus, <kbd>Delete</kbd>, <kbd>⌘D</kbd>, copy and paste act on slides. When the canvas has focus, they act on layers. The focused area is outlined.

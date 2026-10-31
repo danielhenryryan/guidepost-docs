@@ -1,0 +1,80 @@
+---
+title: Settings
+description: Every page in Guidepost Settings and what it controls.
+---
+
+import Screenshot from '../../../components/Screenshot.astro';
+
+Open Settings with <kbd>⌘,</kbd>, the gear in the title bar, or **Guidepost › Settings…**. Changes apply immediately. Press <kbd>Esc</kbd> to close.
+
+To find a setting, type in **Search settings** at the top of the sidebar. You can also find settings with [Search](/reference/search/) (<kbd>⌘K</kbd>) in the main window.
+
+<Screenshot
+  name="settings-general"
+  alt="Settings › General with Appearance, On launch, While live and Updates sections."
+  caption="Settings › General."
+/>
+
+## General
+
+| Setting | What it does |
+|---|---|
+| **Look** | System, Light or Dark, for Guidepost's own window. Audience screens and the Stage Display aren't affected. |
+| **Interface text size** | Default, Large or Larger, for Guidepost's controls. Slide text is set by themes. |
+| **When Guidepost opens** | **Show Start screen** or **Reopen last presentation** (the default). |
+| **Keep this Mac awake** | Prevents sleep and screen idling while live. On by default. |
+| **Silence notifications** | Turns on Do Not Disturb while live. Needs a one-time setup; see [Silencing notifications](/reference/mac-integration/#silencing-notifications-while-live). |
+| **Confirm before sending a cue** | When on, clicking a cue chip fills in the text and you click **Send**. When off, one click sends it, with Undo. |
+| **Check for updates automatically** | On by default. See [Updates](/reference/updates/). |
+
+Reduce motion, Increase contrast and Reduce transparency follow **System Settings › Accessibility**.
+
+## Screens
+
+The [Screens panel](/screens/screens-panel/), plus:
+
+- **Logo**: the image for the Logo hold and the idle screen, and its background color.
+- **When nothing is live, audience screens show**: Logo, Black or Wordmark.
+- **Default transition**: the crossfade length in milliseconds. Themes and slides can override it.
+- **Ask before going live with no audience screen**.
+
+## Countdown
+
+- **Duration** and **At zero** (Go Live, Hold at 0:00, Show Logo): the defaults for the [countdown](/present/timers/).
+- **Text color** and **Background**: by default, these come from the presentation's theme. A preview shows the result.
+- **Announcement loop**: whether saved slides rotate beside the countdown, how often they change, and which slides to use by default.
+
+## Stage Display
+
+What the [Stage Display](/screens/stage-display/#settings) shows and how, your own cue chips, and speaker timer presets.
+
+## Scripture & Songs
+
+- **Bibles**: installed translations, the default translation, **Add translation…** and **Remove**. See [Bibles and translations](/library/bibles/).
+- **First slide**: **Verse** or **Passage title card**, the default for new passages.
+- **Long verses**: **Shrink to fit** or **Split across slides**.
+- **Smallest text size**: the smallest size a long verse is shrunk to.
+- **Lines per slide** for songs: 2 or 4.
+- **Copyright display**: see [Copyright and CCLI](/reference/copyright/).
+
+## Library
+
+- Where the Library is stored, how much space it uses, and **Show in Finder**.
+- **Recently deleted**, with **Empty now…**.
+- **Convert videos the Mac can't play natively**: converts WebM, MKV, AVI and similar files in the background. On by default.
+- **Warn about large files**: Over 500 MB, 1 GB (the default), 2 GB or 4 GB, or Never.
+- **Offer to add media from presentations made on other Macs**.
+
+## Network
+
+The status and address for [network viewers](/screens/network-viewers/), help if viewers can't connect, and advanced options: **Port**, **Start when Guidepost opens** and **Turn off when I end live**. The on/off switch is in the Screens panel.
+
+## Shortcuts
+
+Every action and its keys, grouped by Everywhere, Present and Design. See [Keyboard shortcuts](/reference/keyboard-shortcuts/#change-a-shortcut).
+
+## License & About
+
+- **License**: your license status, with **Enter license key** and **Buy a license**, or, once licensed, **Refresh license** and **Deactivate this computer…**. See [Licensing and the beta](/reference/licensing/).
+- **About**: the version, **What's New** and **Check for app updates**.
+- **Help and support**: links to this help, keyboard shortcuts, AirPlay help, the sample service, support, and feedback.

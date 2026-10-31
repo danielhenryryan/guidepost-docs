@@ -1,0 +1,183 @@
+/* Starlight mapped onto the Guidepost design system (tokens.css). */
+
+:root {
+  --sl-font: 'Inter Variable', -apple-system, BlinkMacSystemFont, sans-serif;
+  --gp-headline-font: Georgia, 'Times New Roman', serif;
+
+  --sl-color-white: var(--gp-text-1);
+  --sl-color-gray-1: var(--gp-text-1);
+  --sl-color-gray-2: var(--gp-text-2);
+  --sl-color-gray-3: var(--gp-text-3);
+  --sl-color-gray-4: var(--gp-text-4);
+  --sl-color-gray-5: var(--gp-border-2);
+  --sl-color-gray-6: var(--gp-bg-panel-2);
+  --sl-color-black: var(--gp-bg-app);
+
+  --sl-color-accent-low: var(--gp-design-soft);
+  --sl-color-accent: var(--gp-design);
+  --sl-color-accent-high: var(--gp-design-text);
+  --sl-color-text-accent: var(--gp-design-text);
+
+  --sl-color-orange-low: var(--gp-present-soft);
+  --sl-color-orange: var(--gp-present);
+  --sl-color-orange-high: var(--gp-present-text);
+  --sl-color-green-low: var(--gp-library-soft);
+  --sl-color-green: var(--gp-library);
+  --sl-color-green-high: var(--gp-library-text);
+  --sl-color-purple-low: var(--gp-design-soft);
+  --sl-color-purple: var(--gp-design);
+  --sl-color-purple-high: var(--gp-design-text);
+
+  --sl-color-bg: var(--gp-bg-app);
+  --sl-color-bg-nav: var(--gp-bg-panel);
+  --sl-color-bg-sidebar: var(--gp-bg-panel);
+  --sl-color-bg-inline-code: var(--gp-bg-panel-2);
+  --sl-color-hairline-light: var(--gp-border-2);
+  --sl-color-hairline: var(--gp-border-1);
+  --sl-color-hairline-shade: var(--gp-border-1);
+}
+
+:root[data-theme='light'] {
+  --sl-color-gray-6: var(--gp-border-1);
+  --sl-color-gray-7: var(--gp-bg-panel);
+  --sl-color-black: var(--gp-bg-slide);
+  --sl-color-bg: var(--gp-bg-slide);
+  --sl-color-bg-nav: var(--gp-bg-panel);
+  --sl-color-bg-sidebar: var(--gp-bg-panel);
+  --sl-color-bg-inline-code: var(--gp-bg-app);
+  --sl-color-accent: var(--gp-design-text);
+  --sl-color-bg-accent: var(--gp-design-text);
+  --sl-color-hairline-light: var(--gp-border-1);
+  --sl-color-hairline-shade: var(--gp-border-1);
+}
+
+/* Type */
+
+.sl-markdown-content,
+.sl-markdown-content :is(p, li) {
+  line-height: 1.7;
+}
+
+h1#_top,
+.hero h1 {
+  font-family: var(--gp-headline-font);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.sl-markdown-content :is(h2, h3) {
+  letter-spacing: -0.015em;
+}
+
+.site-title {
+  font-weight: 650;
+  letter-spacing: -0.04em;
+  gap: 0.6rem;
+}
+
+.site-title img {
+  height: 1.75rem;
+  width: auto;
+}
+
+/* Keyboard keys, as on the app's hotkey badges */
+
+.sl-markdown-content kbd {
+  display: inline-block;
+  min-width: 1.6em;
+  padding: 0.05em 0.4em;
+  border: 1px solid var(--gp-border-2);
+  border-bottom-width: 2px;
+  border-radius: var(--gp-radius-xs);
+  background: var(--gp-bg-panel-2);
+  color: var(--gp-text-1);
+  font-family: var(--sl-font);
+  font-size: 0.85em;
+  font-weight: 550;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Screenshots */
+
+.sl-markdown-content figure.screenshot {
+  margin-block: 1.75rem;
+}
+
+.sl-markdown-content figure.screenshot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--gp-border-2);
+  border-radius: var(--gp-radius-md);
+  box-shadow: 0 12px 32px -16px rgb(0 0 0 / 0.45);
+}
+
+.sl-markdown-content figure.screenshot.narrow {
+  max-width: 28rem;
+}
+
+.sl-markdown-content figure.screenshot figcaption {
+  margin-top: 0.6rem;
+  color: var(--gp-text-3);
+  font-size: var(--sl-text-sm);
+  line-height: 1.5;
+}
+
+/* Workspace labels: Design violet, Present amber, Library teal */
+
+.ws {
+  display: inline-block;
+  padding: 0 0.45em;
+  border-radius: var(--gp-radius-full);
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.ws-design {
+  background: var(--gp-design-soft);
+  color: var(--gp-design-text);
+}
+
+.ws-present {
+  background: var(--gp-present-soft);
+  color: var(--gp-present-text);
+}
+
+.ws-library {
+  background: var(--gp-library-soft);
+  color: var(--gp-library-text);
+}
+
+/* Tables */
+
+.sl-markdown-content table {
+  font-size: var(--sl-text-sm);
+}
+
+.sl-markdown-content th {
+  white-space: nowrap;
+}
+
+/* Home page */
+
+.hero {
+  padding-block: 3rem 2rem;
+}
+
+.hero .tagline {
+  color: var(--gp-text-2);
+  max-width: 34rem;
+}
+
+/* Sidebar: the current page uses the app's soft selection, not a solid fill */
+
+#starlight__sidebar a[aria-current='page'],
+#starlight__sidebar a[aria-current='page']:hover,
+#starlight__sidebar a[aria-current='page']:focus {
+  background-color: var(--gp-design-soft);
+  color: var(--gp-design-text);
+}

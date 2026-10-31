@@ -1,0 +1,20 @@
+---
+import Default from '@astrojs/starlight/components/Footer.astro';
+---
+
+<Default {...Astro.props}><slot /></Default>
+<p class="gp-footer">
+  Can’t find what you need? <a href="https://guidepostpresenter.com/support">Contact support</a> ·
+  <a href="https://guidepostpresenter.com">guidepostpresenter.com</a>
+</p>
+
+<style>
+  .gp-footer {
+    margin-top: 1.5rem;
+    color: var(--gp-text-3);
+    font-size: var(--sl-text-sm);
+  }
+  .gp-footer a {
+    color: var(--gp-text-2);
+  }
+</style>

@@ -1,0 +1,41 @@
+---
+title: Search and commands
+description: Find slides, songs, scripture, media and settings, and run commands, from one box.
+---
+
+import Screenshot from '../../../components/Screenshot.astro';
+
+Press <kbd>⌘K</kbd>, or click the magnifying glass in the title bar, to open Search. It finds content, runs commands, and opens settings from one box.
+
+<Screenshot
+  name="search"
+  alt="The Search window with 'grace' typed, showing results grouped as Slides in this presentation, Songs and Scripture."
+  caption="Search results for 'grace', grouped by kind."
+/>
+
+## What you can find
+
+| Group | Searches | Choosing a result |
+|---|---|---|
+| **Slides in this presentation** | Slide text and labels | Selects the slide in Design, or shows it in Present. |
+| **Songs** | Title, author, lyrics, CCLI number and tags | Opens the Song picker on that song. |
+| **Scripture** | References and Bible text | Opens the Scripture picker with the passage filled in. |
+| **Media** | Name and tags | Adds a Media slide. <kbd>⌘Return</kbd> shows it in the Library instead. |
+| **Saved slides** | Name and tags | Adds the slide. |
+| **Themes** | Name | Applies the theme to the current group, or the presentation. <kbd>⌘Return</kbd> shows it in the Library. |
+| **Commands** | Action names, such as "Go Live", "Blank" or "Toggle Grid" | Runs the command. Saved messages appear as commands too, such as "Show Message: Silence phones". |
+| **Settings** | Setting names | Opens Settings at that setting. |
+
+Each group shows its top results, with a line to show more. When you type something that looks like a reference, such as `ps 23`, Scripture comes first. While live, slides and commands come first.
+
+## Keyboard
+
+- <kbd>↑</kbd> and <kbd>↓</kbd> move through results.
+- <kbd>Return</kbd> chooses a result.
+- <kbd>Esc</kbd> closes Search.
+
+When the box is empty, your recent searches are listed.
+
+## While live
+
+Adding content from Search follows the same rules as the pickers: <kbd>Return</kbd> adds and shows, and <kbd>⌥Return</kbd> adds without changing the screen. New slides go after the live slide's group.

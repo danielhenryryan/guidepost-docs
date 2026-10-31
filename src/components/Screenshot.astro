@@ -1,0 +1,23 @@
+---
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
+
+interface Props {
+  /** File name in src/assets/screens, without the extension. */
+  name: string;
+  alt: string;
+  caption?: string;
+  narrow?: boolean;
+}
+
+const { name, alt, caption, narrow = false } = Astro.props;
+const images = import.meta.glob<{ default: ImageMetadata }>('../assets/screens/*.{png,webp}', { eager: true });
+const match = Object.entries(images).find(([path]) => path.replace(/^.*\//, '').replace(/\.\w+$/, '') === name);
+if (!match) throw new Error(`No screenshot named "${name}" in src/assets/screens`);
+const src = match[1].default;
+---
+
+<figure class:list={['screenshot', { narrow }]}>
+  <Image src={src} alt={alt} widths={[720, 1440, 2160]} sizes="(min-width: 72rem) 45rem, 100vw" />
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>

@@ -1,0 +1,62 @@
+---
+title: Songs
+description: Add songs from your Library with the Song picker, and choose or adjust an arrangement.
+---
+
+import { Aside } from '@astrojs/starlight/components';
+import Screenshot from '../../../components/Screenshot.astro';
+
+The Song picker adds a song from your Library as a group of slides. It opens from the **Song** card in the Add row (<kbd>⇧⌘W</kbd>), from Search, and from Present with <kbd>W</kbd>.
+
+<Screenshot
+  name="picker-song"
+  alt="The Add song picker with Amazing Grace chosen, the Sunday short arrangement selected and adjusted, and a preview of the slides."
+  caption="The Song picker with an arrangement adjusted for this service."
+/>
+
+## Find a song
+
+Type in **Search songs**. The search covers titles, authors, lyrics, CCLI song numbers and tags, and each result says why it matched, for example "Matches lyrics: …". Use **Favorites**, **Recent** and **Tag** to narrow the list.
+
+If the song isn't in your Library yet, click **New song…** to write it, or **Import…** to bring in song files. See [Songs and the song editor](/library/songs/) and [Importing songs](/library/importing-songs/).
+
+## Choose an arrangement
+
+An arrangement is the order the sections are sung in. Choose **Default** or one of the song's saved arrangements. The sections appear as chips in order.
+
+To adjust it for this service:
+
+- Click the **×** on a chip to remove that section.
+- Drag chips to reorder them.
+- Click a section under **Add a section** to add it to the end. A section can appear more than once.
+
+Adjustments apply only to what you're adding. To keep them for next time, click **Update "Sunday short"** to change the arrangement you started from, or **Save as new…** to save a new arrangement.
+
+## Choose how it looks
+
+- **Theme:** keep the presentation's theme, or click another to give this song its own look.
+- **Slides:** a preview of how the song will split into slides with the chosen theme.
+
+## Add it
+
+The footer summarizes what will be added, for example "Adding Amazing Grace · Sunday short, adjusted · 6 sections · 9 slides · copyright line on first slide". Click **Add**.
+
+The song becomes one [group](/design/slides-and-groups/) named after the song. Slides are split:
+
+- by section, so a slide never mixes the end of one verse with the start of the chorus;
+- by the theme's **lines per slide** (2 or 4);
+- wherever the song has a blank line inside a section, which forces a new slide.
+
+A copyright line is added according to **Settings › Scripture & Songs › Copyright display**. See [Copyright and CCLI](/reference/copyright/).
+
+<Aside>
+While live, the picker's buttons are **Add & Show** and **Add**. See [Changing the service while live](/present/live-changes/).
+</Aside>
+
+## Editing lyrics on a slide
+
+Select a Song slide to see its **Song**, **Section** and **Lines** in the inspector. Changing the lines here or on the canvas changes only this slide, which is marked **Edited**. Click **Revert to source** to go back to the song's lyrics. To change a song everywhere you use it, edit it in the Library.
+
+## Repeating or skipping a section during the service
+
+You don't need to change the arrangement when the band repeats a chorus. In Present, the song map has **Repeat** and **Skip** for each section, which change only this run of the service. See [Changing the service while live](/present/live-changes/#repeat-or-skip-a-song-section).
