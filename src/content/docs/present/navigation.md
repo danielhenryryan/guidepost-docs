@@ -14,7 +14,7 @@ description: Next and previous, jumping to a slide, presenter clickers, and anch
 
 - Navigation stops at the start and end of the presentation.
 - Skipped slides are passed over.
-- Holding a key down doesn't race through slides; each press moves one slide.
+- Each keypress moves one slide. Holding the key down doesn’t advance through more slides.
 - <kbd>Space</kbd> always means **Next** in Present, even after you click a rack button.
 - These keys don't act while you're typing in a field, such as the message composer.
 

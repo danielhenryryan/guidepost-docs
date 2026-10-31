@@ -1,6 +1,6 @@
 ---
 title: Updates
-description: How Guidepost keeps itself up to date, and why it never updates during a service.
+description: Install updates, check for a new version and read release notes.
 ---
 
 Guidepost checks for updates in the background and downloads them for you. An update installs when you quit Guidepost or click **Relaunch now**, never in the middle of a service.
@@ -13,7 +13,7 @@ A banner says, for example, "Guidepost 1.1 is ready. It installs when you relaun
 - **What's New** shows what changed.
 - **Later** dismisses the banner. The update installs the next time you quit.
 
-While you're live, nothing about updates appears. Notices wait until you end live.
+Update notices appear after you end live.
 
 ## Check for updates yourself
 

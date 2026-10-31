@@ -46,4 +46,4 @@ Deleting from the Library never breaks a saved presentation, because each presen
 
 Deleted items stay in **Recently deleted**, at the bottom of the sidebar, for 30 days. Each shows how many days are left. Click **Restore** to bring one back.
 
-To remove everything in Recently deleted for good, click **Empty now…** and confirm. This can't be undone. You can also do this from **Settings › Library**.
+To permanently delete everything in Recently deleted, click **Empty now…** and confirm. This can't be undone. You can also do this from **Settings › Library**.

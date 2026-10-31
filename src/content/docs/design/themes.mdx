@@ -6,7 +6,7 @@ description: Apply a theme to a presentation or group, override it on one slide,
 import { Steps, Aside } from '@astrojs/starlight/components';
 import Screenshot from '../../../components/Screenshot.astro';
 
-A theme is a reusable look: fonts, colors, background, text effect, legibility treatment, and the default layout for each kind of slide. Every presentation has one theme. Slides follow it unless you change something on a slide itself.
+A theme sets the fonts, colors, background, text effects and default layouts for your slides. It also includes options to make text easier to read over the background. Every presentation has one theme. Slides follow it unless you change something on a slide itself.
 
 ## Built-in themes
 
@@ -23,7 +23,7 @@ After a theme change, a notice summarizes what changed, for example "Updated 24 
 
 ## Overriding the theme on one slide
 
-Any slide can change what its theme provides, such as its background or transition. The inspector marks overridden properties with a small dot and shows **Reset to theme** beside them. Slides with overrides keep those settings when the theme changes; everything else follows the theme.
+You can give a slide its own background, transition or other settings. The inspector marks overridden properties with a small dot and shows **Reset to theme** beside them. Slides with overrides keep those settings when the theme changes; everything else follows the theme.
 
 ## Edit a theme
 
@@ -71,14 +71,14 @@ Click **Export…** in the theme editor, or **Export** in **Library › Themes**
 Click **Delete theme…** in the theme editor, or select the theme in **Library › Themes** and click **Delete…**. Slides that used it keep their look.
 
 <Aside type="tip">
-A presentation file carries the themes it uses, so it looks the same on another Mac even if that Mac doesn't have your themes.
+A presentation file includes the themes it uses, so it looks the same on another Mac even if that Mac doesn't have your themes.
 </Aside>
 
 ## Fonts
 
 The font menu has three sections:
 
-- **Recently used**: your recent fonts, for quick access.
+- **Recently used**: fonts you’ve used recently.
 - **Guidepost fonts**: Inter, Source Serif 4, Playfair Display, Roboto Slab, Caveat and JetBrains Mono. These are built into Guidepost, so they look the same on every Mac and on network viewers.
 - **Mac fonts**: every font installed on your Mac, including fonts added with Font Book.
 

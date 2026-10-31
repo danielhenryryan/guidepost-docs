@@ -9,7 +9,7 @@ If something isn't working, choose **Help › Report a Problem…**.
 
 1. Describe what happened, and what you expected.
 2. Optionally, add your email address if you'd like a reply.
-3. Leave **Include diagnostic details** selected to help find the cause. The details are shown in full before you send, so you can see exactly what's included: the Guidepost and macOS versions, your Mac model, your display setup, and Guidepost's recent activity log. Your presentations and Library aren't included.
+3. Leave **Include diagnostic details** selected to help find the cause. You can review the details before sending: the Guidepost and macOS versions, your Mac model, your display setup, and Guidepost's recent activity log. Your presentations and Library aren't included.
 4. Click **Send report**.
 
 You'll see a reference number when the report is sent. If it can't be sent, for example because you're offline, your description is kept so you can try again later.

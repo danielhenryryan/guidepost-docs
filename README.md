@@ -19,6 +19,8 @@ Pages live in `src/content/docs`, one Markdown or MDX file per page. The sidebar
 - Use the app's own words for every label, in **bold**, and one name per concept: presentation, slide, group, theme, layout, saved slide, audience screen, Stage Display, network viewers, message, cue.
 - Keys use `<kbd>`, with Mac symbols: `<kbd>⇧⌘B</kbd>`.
 - Keep the tone helpful and neutral: no marketing, no jokes.
+- Use plain, specific wording. Explain what a control does or what happens next; skip promotional claims, filler introductions and repeated reassurances. Use contractions where they sound natural.
+- Preserve app labels and quoted messages when editing copy. Keep technical limits and exceptions explicit.
 
 ## Screenshots
 

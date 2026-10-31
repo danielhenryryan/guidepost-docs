@@ -12,7 +12,7 @@ The slide list on the left of Design shows every slide in order.
   - Song groups show the number of sections and slides, such as "6 sections · 9 slides".
   - Scripture groups show the reference and the number of verses. The translation is shown when it isn't your default.
 - Compact rows show each slide's label (such as "Verse 1", "Chorus" or a verse number like "16a"), the start of its text, and its slide number.
-- Chips mark slides that need a second look:
+- Badges show when a slide’s text has been split or edited:
   - **Split**: a long verse was split across more than one slide.
   - **Edited**: the slide's song or scripture text was changed from the original.
 - **Live** marks the slide that's on screen during a service.
@@ -49,7 +49,7 @@ Slides can be copied from one presentation and pasted into another. Every change
 
 - **Make a group:** select slides and choose **Edit › Group** (<kbd>⌘G</kbd>). Type a name for the group and press <kbd>Return</kbd>.
 - **Rename a group:** double-click its caption row, or choose **Rename Group…** from the right-click menu.
-- **Ungroup:** select the group and choose **Edit › Ungroup** (<kbd>⇧⌘G</kbd>). The slides stay; only the group goes.
+- **Ungroup:** select the group and choose **Edit › Ungroup** (<kbd>⇧⌘G</kbd>). The slides stay in place as individual slides.
 - **Give a group its own theme:** right-click it, choose **Apply Theme to Group**, and pick a theme. Choose **Use Presentation Theme** to go back. A notice says how many slides changed.
 
 ## Skipping slides

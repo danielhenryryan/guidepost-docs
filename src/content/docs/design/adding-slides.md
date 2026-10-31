@@ -3,7 +3,7 @@ title: Adding slides
 description: The Add row, slide kinds, layouts, and where new slides are placed.
 ---
 
-Every way of adding content in Guidepost uses the same pickers and the same placement rules, whether you start from the slide list, a menu, Search, the Library or Present.
+You can add slides from the slide list, menus, Search, the Library or Present. The pickers and placement rules are the same in each.
 
 ## The Add row
 
@@ -30,7 +30,7 @@ The same options are in **Presentation › Add Slide**. To add a Text slide at a
 - New slides go **after the selected slide**. If the selected slide is in a group, they go after the whole group.
 - With nothing selected, they go at the end.
 - The first new slide is selected.
-- Each add is one step in **Undo**.
+- Adding slides can be undone in one step with **Undo**.
 
 In Present, slides added during a service go after the live slide's group. See [Changing the service while live](/present/live-changes/).
 
@@ -48,7 +48,7 @@ New slides use the presentation's theme, or the group's theme if they're added i
 
 ## Changing a slide's layout
 
-Select a slide and choose a layout under **Look › Layout** in the inspector. The text stays the same when you switch. A Text slide keeps all three of its lines even if the new layout shows fewer, so switching back brings them back.
+Select a slide and choose a layout under **Look › Layout** in the inspector. The text stays the same when you switch. A Text slide keeps all three of its lines even if the new layout shows fewer, so the text reappears when you switch back.
 
 If you move or resize layers on the canvas, the layout shows as **Custom**. Click **Reset layout** to go back to the layout's positions.
 

@@ -3,7 +3,7 @@ title: Editing on the canvas
 description: Select, move, resize and rotate layers, edit text, and use guides, the grid and zoom.
 ---
 
-The canvas shows the selected slide. Everything on it is a **layer**: a text box, image, video or shape. Every slide can be freely edited, including Song and Scripture slides; they keep track of their song or passage either way.
+The canvas shows the selected slide. Everything on it is a **layer**: a text box, image, video or shape. You can edit layers on any slide, including Song and Scripture slides. Those slides keep their song or passage information when you edit them.
 
 ## Add a layer
 

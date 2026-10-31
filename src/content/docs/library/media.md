@@ -1,6 +1,6 @@
 ---
 title: Media
-description: Import images and videos into the Library from Finder or Photos, and manage them.
+description: Add images and videos from Finder or Photos, view their details and replace files.
 ---
 
 **Library › Media** holds the images and videos you use for slides, backgrounds and layers.
@@ -24,9 +24,9 @@ Importing shows progress in the title bar's activity indicator, where you can ca
 
 ### Large files
 
-Very large videos may not play smoothly on older Macs. Guidepost warns you when you import a file over 1 GB, and suggests a smaller export. Change the size at which it warns, or turn the warning off, with **Warn about large files** in **Settings › Library**.
+Very large videos may not play smoothly on older Macs. Guidepost warns you when you import a file over 1 GB, and suggests a smaller export. To change the size limit for the warning or turn it off, use **Warn about large files** in **Settings › Library**.
 
-The only hard limit is free disk space. If there isn't enough room, Guidepost says how much is needed.
+Imports are limited by available disk space. If there isn't enough room, Guidepost says how much is needed.
 
 ## Media details
 
@@ -47,4 +47,4 @@ Use **All**, **Images** and **Videos** at the top to filter by type.
 
 ## Presentations from other Macs
 
-Every saved presentation contains its own copy of the media it uses. When you open a presentation made on another Mac, its media plays straight from the file. If it brings media your Library doesn't have, Guidepost offers to add it: click **Add N items to Library**, or **Not now**. Each file only asks once. You can turn this offer off in **Settings › Library**.
+Every saved presentation contains its own copy of the media it uses. When you open a presentation made on another Mac, its media plays straight from the file. If it contains media that isn't in your Library, Guidepost offers to add it: click **Add N items to Library**, or **Not now**. Guidepost makes this offer once per presentation file. You can turn this offer off in **Settings › Library**.

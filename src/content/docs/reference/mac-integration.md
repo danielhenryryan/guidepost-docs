@@ -59,7 +59,7 @@ While live, or while a countdown is running, Guidepost keeps your Mac and its di
 
 ## iCloud Drive
 
-Presentations saved in iCloud Drive, or another synced folder, open and save like any other file. This is an easy way to share a service between an office Mac and the sanctuary Mac.
+Presentations saved in iCloud Drive, or another synced folder, open and save like any other file. You can use a synced folder to share a service between an office Mac and the sanctuary Mac.
 
 ## Accessibility
 

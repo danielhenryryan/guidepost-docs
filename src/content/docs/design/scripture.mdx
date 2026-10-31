@@ -6,7 +6,7 @@ description: Add Bible passages with the Scripture picker, by reference, by brow
 import { Aside } from '@astrojs/starlight/components';
 import Screenshot from '../../../components/Screenshot.astro';
 
-The Scripture picker adds a passage as slides, one verse per slide. It opens from the **Scripture** card in the Add row (<kbd>⇧⌘S</kbd>), from Search, and from Present with <kbd>S</kbd>. It works the same way everywhere.
+The Scripture picker adds a passage as slides, one verse per slide. It opens from the **Scripture** card in the Add row (<kbd>⇧⌘S</kbd>), from Search, and from Present with <kbd>S</kbd>. The picker works the same way in each workspace.
 
 <Screenshot
   name="picker-scripture"
@@ -29,7 +29,7 @@ Type into the **Reference or words** field. Guidepost understands most ways of w
 | `romans 8:28-31,38` | Romans 8:28–31 and 8:38 |
 | `first john 4:8` | 1 John 4:8 |
 
-The line under the field explains what <kbd>Return</kbd> will do, for example "John 3:16–18 · ↵ adds 3 slides". If something isn't right, it says so: "John has 21 chapters", or "Philippians or Philemon?" when an abbreviation could mean either.
+The line under the field explains what <kbd>Return</kbd> will do, for example "John 3:16–18 · ↵ adds 3 slides". It also shows errors or asks you to clarify: "John has 21 chapters", or "Philippians or Philemon?" when an abbreviation could mean either.
 
 To use a different translation for one passage, add its abbreviation to the reference, for example `john 3:16 WEB`, or choose it from the menu beside the field.
 

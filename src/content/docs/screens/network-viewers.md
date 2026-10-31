@@ -13,7 +13,7 @@ Network viewers let any device on the same network as your Mac follow the servic
 
 The panel shows how many devices are watching. The same count appears in the Present status bar.
 
-Network viewers need nothing installed on the device. Any modern browser works.
+Viewers use a web browser and don’t need to install an app.
 
 ## What viewers see
 

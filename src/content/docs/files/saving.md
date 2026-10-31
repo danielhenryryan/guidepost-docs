@@ -1,6 +1,6 @@
 ---
 title: Saving, autosave and recovery
-description: How Guidepost saves your work, protects it if something goes wrong, and what each dialog means.
+description: Save presentations, recover unsaved changes and handle file errors.
 ---
 
 ## Saving
@@ -17,7 +17,7 @@ A dot beside the name in the title bar means there are unsaved changes.
 
 While you work, Guidepost keeps a working copy of your changes a few seconds after each edit, and whenever you switch workspace, go live, or switch to another app.
 
-Autosave never changes your file. Only **Save** does. The working copy is kept out of sight, not in your folders. If autosave stops working, Guidepost tells you, so you can save with <kbd>⌘S</kbd>.
+Autosave never changes your file. Only **Save** does. Guidepost stores the working copy separately from your saved presentation. If autosave stops working, Guidepost tells you, so you can save with <kbd>⌘S</kbd>.
 
 ## Unsaved changes
 
@@ -27,11 +27,11 @@ When you create, open or close a presentation, or quit Guidepost, with unsaved c
 - **Don't Save** discards them.
 - **Cancel** goes back.
 
-While a service is live, these actions first ask whether to end live, for example **End live to open "Christmas Eve"?**. Choose **End Live and continue** or **Cancel**. Nothing ends the service without asking.
+While a service is live, these actions first ask whether to end live, for example **End live to open "Christmas Eve"?**. Choose **End Live and continue** or **Cancel**.
 
 ## Recovering after a crash
 
-If Guidepost or your Mac quits unexpectedly, the next time you open Guidepost, or open the affected presentation, it asks **Recover unsaved work?** It shows when the problem happened and how much work the recovered copy holds that your saved file doesn't.
+If Guidepost or your Mac quits unexpectedly, the next time you open Guidepost, or open the affected presentation, it asks **Recover unsaved work?** It shows when the problem happened and how much unsaved work the recovered copy contains.
 
 - **Recover** opens the recovered work, marked as unsaved. Save it to keep it.
 - **Discard** throws the recovered copy away.
@@ -39,7 +39,7 @@ If Guidepost or your Mac quits unexpectedly, the next time you open Guidepost, o
 
 ## When saving fails
 
-If a presentation can't be saved, for example because the disk is full or a USB drive was unplugged, Guidepost says why and when it was last saved successfully. Your work stays safe in Guidepost until it's saved somewhere. Choose **Save elsewhere…** to save it to another location, or **Try again**.
+If a presentation can't be saved, for example because the disk is full or a USB drive was unplugged, Guidepost says why and when it was last saved successfully. The presentation stays open with your unsaved changes. Choose **Save elsewhere…** to save it to another location, or **Try again**.
 
 ## When a presentation can't be opened
 
@@ -52,4 +52,4 @@ Recent presentations on a drive that isn't connected appear in **File › Open R
 
 ## Undo
 
-Guidepost has deep undo for every change to the presentation, including deleting slides and groups and changes made while live. **Edit › Undo** names the change it will undo, such as "Undo Move Layer". View changes, such as zoom and panel sizes, aren't part of undo. Undo history starts fresh when you open a presentation.
+You can undo changes to the presentation, including deleting slides and groups and making edits while live. **Edit › Undo** names the change it will undo, such as "Undo Move Layer". View changes, such as zoom and panel sizes, aren't part of undo. Undo history starts fresh when you open a presentation.

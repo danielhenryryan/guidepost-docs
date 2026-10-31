@@ -1,19 +1,19 @@
 ---
 title: Moving a presentation to another Mac
-description: Presentation files carry everything they need, so you can build on one Mac and present on another.
+description: Copy a presentation to another Mac, check its fonts and screens, and share Library items.
 ---
 
-A common setup is to build the service on an office Mac during the week and run it from the sanctuary Mac on Sunday. Guidepost is designed for this.
+You can prepare a service on one Mac and run it on another, such as an office Mac and a sanctuary Mac.
 
-## Every file is complete
+## Copy the presentation file
 
-A saved `.guidepost` file contains everything the presentation uses: its slides, its themes, and a copy of every image and video. There's no separate export step. Copy the file to another Mac by any means:
+A saved `.guidepost` file includes its slides, themes, images and videos. There's no separate export step. Transfer the file to another Mac using:
 
 - a USB drive;
 - AirDrop;
 - a shared folder, such as iCloud Drive, so both Macs see the same file.
 
-Then open it on the other Mac. Every slide, background and video is there.
+Open the `.guidepost` file on the other Mac.
 
 ## Opening a file from another Mac
 
@@ -37,4 +37,4 @@ Songs and themes live in each Mac's Library. To use the same songs or themes on 
 - **Themes:** **Export** in **Library › Themes** saves a theme file. See [Themes](/design/themes/#share-themes).
 - **Saved slides:** **Export** in **Library › Saved slides**.
 
-A presentation file already carries the themes it uses, so you only need to share themes you want to use in new presentations.
+A presentation file already includes the themes it uses, so you only need to share themes you want to use in new presentations.
