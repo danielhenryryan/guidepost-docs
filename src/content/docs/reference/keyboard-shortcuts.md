@@ -76,7 +76,8 @@ In the Scripture and Song pickers and in Search while live, <kbd>Return</kbd> is
 | Edit the selected text layer | <kbd>Return</kbd> or double-click |
 | Nudge 1 point, 10 points | Arrow keys, <kbd>⇧</kbd> + arrow keys |
 | Keep proportions while resizing | Hold <kbd>⇧</kbd> |
-| Scale text with its box | Hold <kbd>⌥</kbd> while resizing |
+| Resize from the center | Hold <kbd>⌥</kbd> while resizing |
+| Scale text with its box | Hold <kbd>⌘</kbd> while resizing |
 | Snap rotation to 15° | Hold <kbd>⇧</kbd> while rotating |
 | Move without snapping | Hold <kbd>⌥</kbd> while dragging |
 | Deselect, or stop editing text | <kbd>Esc</kbd> |

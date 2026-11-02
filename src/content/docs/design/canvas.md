@@ -29,7 +29,8 @@ You can also drag an image or video onto the canvas from Finder, Photos or the L
 | Move | Drag the layer. |
 | Nudge | Press an arrow key to move 1 point, or <kbd>⇧</kbd>+arrow for 10 points. |
 | Resize | Drag one of the eight handles. Hold <kbd>⇧</kbd> to keep the proportions. |
-| Resize text with its box | Hold <kbd>⌥</kbd> while resizing a text box to scale the font size with it. |
+| Resize from the center | Hold <kbd>⌥</kbd> while resizing to keep the box centered: the opposite side moves by the same amount. |
+| Resize text with its box | Hold <kbd>⌘</kbd> while resizing a text box to scale the font size with it. |
 | Rotate | Drag the rotation handle above the layer. Hold <kbd>⇧</kbd> to snap to 15° steps. |
 | Type exact values | Use **X**, **Y**, **W**, **H** and **Rotation** on the inspector's **Position** tab. |
 
