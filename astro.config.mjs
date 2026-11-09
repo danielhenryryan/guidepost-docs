@@ -68,7 +68,7 @@ export default defineConfig({
         },
         {
           label: 'Screens',
-          items: ['screens/screens-panel', 'screens/airplay', 'screens/stage-display', 'screens/network-viewers'],
+          items: ['screens/screens-panel', 'screens/airplay', 'screens/stage-display', 'screens/network-viewers', 'screens/what-guidepost-sends'],
         },
         {
           label: 'Library',
