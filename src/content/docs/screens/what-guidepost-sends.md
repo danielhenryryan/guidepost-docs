@@ -15,7 +15,7 @@ Guidepost sends anonymous usage data so we can see which features churches use a
 
 To turn it off, open **Settings › General** and turn off **Share anonymous usage data**. It takes effect right away, though anything recorded in the last minute may still be sent.
 
-Usage data never delays going live or anything else. If your Mac is offline, it isn't kept for later.
+Usage data never delays going live. If your Mac is offline, anything recorded is sent once it's back online, or lost if Guidepost quits first.
 
 [More about usage data](https://guidepostpresenter.com/privacy/#usage-data)
 
