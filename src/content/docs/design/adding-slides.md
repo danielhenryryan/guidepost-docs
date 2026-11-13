@@ -21,7 +21,7 @@ Above the slide list, the **+ Add slide** row has four cards and a **More…** b
 - **Blank**: a slide with only a background (<kbd>⇧⌘N</kbd>).
 - **Saved slides…**: copy in a slide from your Library. See [Saved slides](/design/saved-slides/).
 - **Import slides from another presentation…**: choose a presentation file, choose the slides you want, and click **Add N slides**. If those slides use media your Library doesn't have, Guidepost offers to add it.
-- **Slides from image…**: make Text slides from a photo or screenshot, such as a printed bulletin. Guidepost reads the text on your Mac; adjust where slides split, then click **Add N Text slides**.
+- **Slides from image…**: make Text slides from a photo or screenshot, such as a printed bulletin. Guidepost reads the text on your Mac. Adjust where slides split, then click **Add N Text slides**.
 
 The same options are in **Presentation › Add Slide**. To add a Text slide at a particular spot, hover between two slides in the list and click **+**.
 

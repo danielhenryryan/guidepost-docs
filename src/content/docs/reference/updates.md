@@ -11,13 +11,13 @@ A banner says, for example, "Guidepost 1.1 is ready. It installs when you relaun
 
 - **Relaunch now** installs the update and reopens Guidepost.
 - **What's New** shows what changed.
-- **Later** dismisses the banner. The update installs the next time you quit.
+- **Not now** dismisses the banner. The update installs the next time you quit.
 
 Update notices appear after you end live.
 
 ## Check for updates yourself
 
-Choose **Guidepost › Check for Updates…**, or click **Check for app updates** in **Settings › License & About**. Guidepost tells you whether you're up to date.
+Choose **Guidepost › Check for Updates…**, or click **Check for Updates…** in **Settings › License & About**. Guidepost tells you whether you're up to date.
 
 To stop automatic checks, turn off **Check for updates automatically** in **Settings › General**.
 

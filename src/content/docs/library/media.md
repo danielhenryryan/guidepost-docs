@@ -7,7 +7,7 @@ description: Add images and videos from Finder or Photos, view their details and
 
 ## Import media
 
-- Click **Import…** and choose files or folders.
+- Click **Choose files…** and choose files or folders.
 - Click **Add from Photos…** to choose images and videos from your Photos library. Guidepost only receives the items you choose.
 - Drag files or folders from Finder, or items from the Photos app, anywhere onto the Media section.
 

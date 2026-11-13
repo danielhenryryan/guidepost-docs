@@ -27,7 +27,7 @@ When you create, open or close a presentation, or quit Guidepost, with unsaved c
 - **Don't Save** discards them.
 - **Cancel** goes back.
 
-While a service is live, these actions first ask whether to end live, for example **End live to open "Christmas Eve"?**. Choose **End Live and continue** or **Cancel**.
+While a service is live, these actions first ask whether to end live, for example **End live to open ‘Christmas Eve’?**. Choose **End Live and continue** or **Cancel**.
 
 ## Recovering after a crash
 
@@ -35,7 +35,7 @@ If Guidepost or your Mac quits unexpectedly, the next time you open Guidepost, o
 
 - **Recover** opens the recovered work, marked as unsaved. Save it to keep it.
 - **Discard** throws the recovered copy away.
-- **Decide later** keeps the recovered copy and asks again next time.
+- **Not now** keeps the recovered copy and asks again next time.
 
 ## When saving fails
 

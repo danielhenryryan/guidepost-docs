@@ -21,7 +21,7 @@ Usage data never delays going live. If your Mac is offline, anything recorded is
 
 ## License activation
 
-When you click **Activate**, Guidepost sends your license key, a code made from your Mac's hardware ID (not the ID itself), and your Mac's computer name, so the license can count your Macs. It checks the license again when you click **Refresh license**, and on its own now and then when you're online. **Deactivate this computer** removes the Mac from your license.
+When you click **Activate**, Guidepost sends your license key, a code made from your Mac's hardware ID (not the ID itself), and your Mac's name, so the license can count your Macs. It checks the license again when you click **Refresh license**, and on its own now and then when you're online. **Deactivate this computer** removes the Mac from your license.
 
 The Mac App Store version doesn't activate a license.
 

@@ -3,7 +3,7 @@ title: Network viewers
 description: Let phones, tablets and TVs on the church network watch the service in a web browser.
 ---
 
-Network viewers let any device on the same network as your Mac follow the service in a web browser: a lobby TV, an overflow room, or a phone in the pew for someone who finds the main screen hard to read. Viewers can only watch; they can't control anything.
+Network viewers let any device on the same network as your Mac follow the service in a web browser: a lobby TV, an overflow room, or a phone in the pew for someone who finds the main screen hard to read. Viewers can only watch. They can't control anything.
 
 ## Turn it on
 
@@ -25,13 +25,13 @@ If the connection drops, the viewer keeps the last slide up and shows **Reconnec
 
 ## Turning it off
 
-By default, network viewers turn off when you end live. To keep them on, turn off **Turn off when I end live** in the Screens panel, or click **Keep on** in the notice after ending live.
+By default, network viewers turn off when you end live. To keep them on, turn off **Turn off when you end live** in the Screens panel, or click **Keep on** in the notice after ending live.
 
 **Settings › Network › Advanced** has more options:
 
 - **Port**: change this only if another app is already using it. Viewers need to reload after a change.
 - **Start when Guidepost opens**: viewers can connect any time, and see the idle screen until you go live.
-- **Turn off when I end live**.
+- **Turn off when you end live**.
 
 ## If viewers can't connect
 

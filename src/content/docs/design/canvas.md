@@ -59,7 +59,7 @@ With two or more layers selected, the toolbar shows alignment (left, center, rig
 
 ## Arrange, lock and hide
 
-- **Edit › Arrange** has **Bring to Front** (<kbd>⌥⌘]</kbd>), **Bring Forward** (<kbd>⌘]</kbd>), **Send Backward** (<kbd>⌘[</kbd>) and **Send to Back** (<kbd>⌥⌘[</kbd>). You can also drag rows in the **Layers** list; the top row is in front.
+- **Edit › Arrange** has **Bring to Front** (<kbd>⌥⌘]</kbd>), **Bring Forward** (<kbd>⌘]</kbd>), **Send Backward** (<kbd>⌘[</kbd>) and **Send to Back** (<kbd>⌥⌘[</kbd>). You can also drag rows in the **Layers** list. The top row is in front.
 - **Lock** a layer (<kbd>⇧⌘L</kbd>) so it can't be selected on the canvas by accident. Select it in the **Layers** list, or right-click it on the canvas and choose **Unlock**, to change it again.
 - **Hide** a layer (<kbd>⇧⌘H</kbd>) to keep it on the slide without showing it.
 - Double-click a row in the **Layers** list to rename the layer.

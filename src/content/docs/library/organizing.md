@@ -9,7 +9,7 @@ Click the star beside a song, or choose **Add to Favorites** from the right-clic
 
 ## Tags
 
-Tags group songs, media and saved slides across the Library, for example "Christmas", "Kids" or "Backgrounds". Tags appear in the sidebar with a count; click one to show only items with that tag. Tags also filter the pickers in Design, and Search finds items by tag.
+Tags group songs, media and saved slides across the Library, for example "Christmas", "Kids" or "Backgrounds". Tags appear in the sidebar with a count. Click one to show only items with that tag. Tags also filter the pickers in Design, and Search finds items by tag.
 
 ### Add tags
 

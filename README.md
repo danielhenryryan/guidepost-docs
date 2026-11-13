@@ -32,7 +32,7 @@ import Screenshot from '../../../components/Screenshot.astro';
 <Screenshot name="present-live" alt="What the picture shows." caption="Optional caption." />
 ```
 
-Add `narrow` for small pictures such as dialogs. Never include a real network address, QR code, computer name or license key in a screenshot.
+Add `narrow` for small pictures such as dialogs. Never include a real network address, QR code, Mac name or license key in a screenshot.
 
 ## Design
 

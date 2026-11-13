@@ -24,7 +24,7 @@ Siri understands phrases such as "Go live with Guidepost", "Next slide in Guidep
 
 ## Spotlight
 
-Your songs and recent presentations appear in Spotlight. Type a song title, such as "Amazing Grace", or a presentation's name. Choosing a song opens it in **Library › Songs**; choosing a presentation opens it.
+Your songs and recent presentations appear in Spotlight. Type a song title, such as "Amazing Grace", or a presentation's name. Choosing a song opens it in **Library › Songs**. Choosing a presentation opens it.
 
 ## Quick Look
 
@@ -32,7 +32,7 @@ In Finder, a presentation's icon shows its first slide. Select a presentation an
 
 ## Photos
 
-Click **Add from Photos…** in **Library › Media** or the Media picker's **Upload** tab to choose images and videos from your Photos library. You can also drag items straight from the Photos app onto the Library, the slide list or the canvas. Guidepost only receives the items you choose.
+Click **Add from Photos…** in **Library › Media** or the Media picker's **From this Mac** tab to choose images and videos from your Photos library. You can also drag items straight from the Photos app onto the Library, the slide list or the canvas. Guidepost only receives the items you choose.
 
 ## Live Text
 
@@ -51,7 +51,7 @@ Guidepost can turn on Do Not Disturb when you go live and turn it off when you e
 
 The status under the setting tells you if anything is missing. The same steps are in **Help › Silencing Notifications While Live**.
 
-Audience screens never show notifications either way; this setting keeps them off your own screen.
+Audience screens never show notifications either way. This setting keeps them off your own screen.
 
 ## Keeping your Mac awake
 

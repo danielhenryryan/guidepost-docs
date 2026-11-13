@@ -24,7 +24,7 @@ Click a group's caption row to collapse or expand it.
 
 - Click a slide to select it.
 - <kbd>⇧</kbd>-click to select a range, or <kbd>⌘</kbd>-click to add or remove one slide.
-- Use <kbd>↑</kbd> and <kbd>↓</kbd> to move through slides; add <kbd>⇧</kbd> to extend the selection.
+- Use <kbd>↑</kbd> and <kbd>↓</kbd> to move through slides. Add <kbd>⇧</kbd> to extend the selection.
 
 Selected slides can be moved, duplicated, deleted, grouped or restyled together.
 

@@ -16,7 +16,7 @@ You'll see a reference number when the report is sent. If it can't be sent, for 
 
 ## Send feedback
 
-Choose **Help › Send Feedback…** to share an idea or tell us how Guidepost is working for your church. During the beta, Guidepost occasionally asks how it's going after a service; click **Don't ask again** to stop the reminder.
+Choose **Help › Send Feedback…** to share an idea or tell us how Guidepost is working for your church. During the beta, Guidepost occasionally asks how it's going after a service. Click **Don't ask again** to stop the reminder.
 
 ## Contact support
 
