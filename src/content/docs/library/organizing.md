@@ -38,7 +38,7 @@ Each section remembers its own filters, sort and view.
 
 ## Delete and recover
 
-Select items and press <kbd>Delete</kbd>, or click **Delete**. If an item is used in the open presentation, a saved slide, or presentations you've opened recently, Guidepost lists where and asks first. Items that aren't used anywhere are deleted straight away, with **Undo** in the notice.
+Select items and press <kbd>Delete</kbd>, or click **Delete**. If an item is used in the open presentation, a saved slide, or presentations you've opened recently, Guidepost lists where and asks first. Items that aren't used anywhere are deleted right away, with **Undo** in the notice.
 
 Deleting from the Library never breaks a saved presentation, because each presentation file contains its own copy of what it uses.
 

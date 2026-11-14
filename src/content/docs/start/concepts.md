@@ -30,7 +30,7 @@ Presentation (one service, one file)
 - **Presentation**: The document for one service: an ordered list of slides, saved as a single `.guidepost` file. One presentation is open at a time.
 - **Slide**: The content shown on screen at one time. Every slide has a **kind**: Text, Scripture, Song, Media or Blank. The kind determines its content. A Scripture slide includes its passage and translation; a Song slide includes its song and section.
 - **Group**: A run of slides that belong together, such as one song or one passage. Guidepost makes groups automatically for songs and multi-verse passages; you can also group any slides yourself. Groups have a name and can be collapsed in the slide list.
-- **Section**: A labelled part of a song: Verse 1, Chorus, Bridge, and so on.
+- **Section**: A labeled part of a song: Verse 1, Chorus, Bridge, and so on.
 - **Arrangement**: The order a song's sections are sung in. Every song has a **Default** arrangement and can have more, such as "Sunday short" or "Christmas".
 - **Layout**: Where the text and media sit on a slide, for example **Title · Centered**, **Lower third** or **Reference above**. Switching layouts keeps the text.
 - **Theme**: A set of fonts, colors, backgrounds, text effects and layouts you can apply to a presentation or group. Slides follow the presentation's theme unless they override something.
