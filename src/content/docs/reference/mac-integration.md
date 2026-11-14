@@ -63,8 +63,8 @@ Presentations saved in iCloud Drive, or another synced folder, open and save lik
 
 ## Accessibility
 
-- Guidepost works with VoiceOver. Changes such as going live, holds and messages are announced.
-- **Reduce motion** in **System Settings › Accessibility** shortens transitions on the audience screens, pauses animated scenes, and stops flashing timers.
+- Guidepost works with VoiceOver. Changes such as going live, Blank, Logo, Freeze and messages are announced.
+- **Reduce motion** in **System Settings › Accessibility** shortens transitions on the audience screens, pauses built-in backgrounds, and stops flashing timers.
 - **Increase contrast** strengthens the edges of controls.
 - **Interface text size** in **Settings › General** makes Guidepost's controls larger without changing slides.
 - Everything in Present can be done from the keyboard. Every keyboard shortcut can be changed.

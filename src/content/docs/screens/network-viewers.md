@@ -17,7 +17,7 @@ Viewers use a web browser and don’t need to install an app.
 
 ## What viewers see
 
-Viewers see what the audience screens show: the slides, transitions, holds, the message, the countdown and live edits. Before the service starts and after it ends, they see the idle screen.
+Viewers see what the audience screens show: the slides, transitions, Blank, Logo, Freeze and Clear text, the message, the countdown and live edits. Before the service starts and after it ends, they see the idle screen.
 
 Video slides appear on viewers as a still picture rather than moving video.
 

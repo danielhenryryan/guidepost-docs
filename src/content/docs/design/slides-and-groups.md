@@ -54,7 +54,7 @@ Slides can be copied from one presentation and pasted into another. Every change
 
 ## Skipping slides
 
-To keep a slide in the file but pass over it during the service, right-click it and choose **Skip in Present**. Skipped slides are dimmed and marked **Skipped**. **Next** and **Previous** pass over them in Present, but you can still show one by clicking it. Choose **Skip in Present** again to turn it back on.
+To keep a slide in the file but pass over it during the service, right-click it and choose **Skip**. Skipped slides are dimmed and marked **Skipped**. **Next** and **Previous** pass over them in Present, but you can still show one by clicking it. Choose **Skip** again to turn it back on.
 
 ## The right-click menu
 
@@ -62,11 +62,11 @@ Right-click a slide for:
 
 - **Duplicate**, **Delete**
 - **Group**, **Ungroup**, **Rename Group…**, **Apply Theme to Group**
-- **Set as Anchor Passage** (scripture groups only; see [Anchor passages](/present/navigation/#anchor-passages))
+- **Set as Main Passage** (scripture groups only; see [Main passage](/present/navigation/#main-passage))
 - **Copy Style**, **Paste Style**
 - **Replace Media…** (when the slide has an image or video)
-- **Save as Saved Slide…**
-- **Skip in Present**
+- **Save to Library…**
+- **Skip**
 
 ## Copying a slide's look
 

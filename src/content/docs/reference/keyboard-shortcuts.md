@@ -39,10 +39,10 @@ These single keys work only in Present, and not while you're typing in a field.
 | Message (opens the composer) | <kbd>M</kbd> |
 | Add scripture | <kbd>S</kbd> |
 | Add song | <kbd>W</kbd> |
-| Send cue | <kbd>⇧⌘C</kbd> |
+| Send stage message | <kbd>⇧⌘C</kbd> |
 | Play or pause video | <kbd>K</kbd> |
 | Restart video | <kbd>0</kbd> |
-| Return to anchor passage | <kbd>R</kbd> |
+| Back to main passage | <kbd>R</kbd> |
 | End Live | <kbd>Esc</kbd> |
 
 In the Scripture and Song pickers and in Search while live, <kbd>Return</kbd> is **Add & Show** and <kbd>⌥Return</kbd> is **Add**.

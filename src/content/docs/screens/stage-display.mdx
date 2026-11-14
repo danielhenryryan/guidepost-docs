@@ -1,6 +1,6 @@
 ---
 title: Stage Display
-description: A screen for the band and the speaker, with current and next lyrics, chords, a clock, the speaker timer and cues.
+description: A screen for the band and the speaker, with current and next lyrics, chords, a clock, the speaker timer and stage messages.
 ---
 
 import Screenshot from '../../../components/Screenshot.astro';
@@ -11,8 +11,8 @@ To set one up, open the [Screens panel](/screens/screens-panel/) and choose a di
 
 <Screenshot
   name="stage-display"
-  alt="The Stage Display showing the clock, the song and section name, the sermon timer, the current chorus lyrics in large type with chords above, the next line, the song map, and an amber '5 MIN LEFT' cue banner."
-  caption="The Stage Display during a song, with chords turned on and a cue showing."
+  alt="The Stage Display showing the clock, the song and section name, the sermon timer, the current chorus lyrics in large type with chords above, the next line, the song sections, and an amber '5 MIN LEFT' stage message banner."
+  caption="The Stage Display during a song, with chords turned on and a stage message showing."
 />
 
 ## What it shows
@@ -23,14 +23,14 @@ To set one up, open the [Screens panel](/screens/screens-panel/) and choose a di
 - **Now**: the current lyrics or verse, in large type. Chords appear above the lyrics when turned on.
 - **Next**: the next section and its first line, or a thumbnail of the next slide.
 - **Notes**: the slide's notes.
-- **Song map**: the song's sections in order, with the current one underlined and skipped sections struck through.
-- **Cue banner**: an amber banner across the bottom when you send a [cue](/present/cues/).
+- **Song sections**: the song's sections in order, with the current one underlined and skipped sections struck through.
+- **Stage message**: an amber banner across the bottom when you send a [stage message](/present/cues/).
 
 Before you go live, the Stage Display shows an idle screen, or the countdown when one is running.
 
 ## When the audience screen changes
 
-The Stage Display follows your slide position, even when a hold changes what the audience sees:
+The Stage Display follows your slide position, even when Blank, Logo or Freeze changes what the audience sees:
 
 | Audience sees | Stage Display shows |
 |---|---|
@@ -48,16 +48,16 @@ Chords come from the song's lyrics, where they're written in square brackets, su
 
 | Setting | Options |
 |---|---|
-| **Shown on the stage** | Next, Song map, Clock, Slide notes, Speaker timer, Chords above lyrics |
+| **Shown on the stage** | Next, Song sections, Clock, Slide notes, Speaker timer, Chords above lyrics |
 | **Next shows** | Text or Thumbnail |
 | **Clock** | 12-hour or 24-hour |
 | **Lyric size** | Normal, Large or Extra large |
 | **Background** | Any color |
 | **When the audience screen is blanked** | Show a notice, or Blank the stage too |
 | **Speaker timer counts past zero** | On or off |
-| **Your cues** | Your own cue chips |
+| **Your stage messages** | Your own stage message chips |
 | **Timer presets** | Speaker timer presets, such as Sermon 25:00 |
 
 ## In Present
 
-When a Stage Display is active, the third monitor in Present shows a live view of it, and the control rack shows the **Stage Display** module for sending cues.
+When a Stage Display is active, the third monitor in Present shows a live view of it, and the **Stage Display** controls on the right of Present send stage messages.

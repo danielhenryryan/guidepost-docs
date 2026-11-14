@@ -13,7 +13,7 @@ Full-screen audience screens open when you go live or start a countdown. Until t
 
 - Check the cable and that the display is on and set to the right input.
 - Open **System Settings › Displays** and confirm that macOS sees the display.
-- Your own display, the one the Guidepost window is on, is listed as **Your screen** and can't be a full-screen audience screen. To use a single display, turn on **Windowed audience screen**.
+- Your own display, the one the Guidepost window is on, is listed as **Your screen** and can't be a full-screen audience screen. To use a single display, turn on **Use an audience screen in a window**.
 
 ### The slides went to the wrong display
 
@@ -91,7 +91,7 @@ Guidepost quit unexpectedly with unsaved changes. Choose **Recover** to open the
 
 ### B, L, F or C don't do anything
 
-Holds are available only while live. Logo also needs a logo image in **Settings › Screens**.
+Blank, Logo, Freeze and Clear text are available only while live. Logo also needs a logo image in **Settings › Screens**.
 
 ## Still stuck?
 

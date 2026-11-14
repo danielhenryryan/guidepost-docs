@@ -43,7 +43,7 @@ With a text layer selected, the toolbar shows:
 - font family and size, with a menu of preset sizes and **Fit text to box**;
 - **Bold** (<kbd>⌘B</kbd>), **Italic** (<kbd>⌘I</kbd>) and **Underline** (<kbd>⌘U</kbd>);
 - alignment and text color;
-- **Fine type**: line height, letter spacing and case.
+- **Spacing & case**: line height, letter spacing and case.
 
 The inspector's **Style** tab sets the text effect: **None**, **Soft**, **Strong** (shadows) or **Outline**, each with its own settings.
 

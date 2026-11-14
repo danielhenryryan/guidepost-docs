@@ -1,6 +1,6 @@
 ---
 title: Adding slides
-description: The Add row, slide kinds, layouts, and where new slides are placed.
+description: The Add row, slide types, layouts, and where new slides are placed.
 ---
 
 You can add slides from the slide list, menus, Search, the Library or Present. The pickers and placement rules are the same in each.
@@ -36,9 +36,9 @@ In Present, slides added during a service go after the live slide's group. See [
 
 New slides use the presentation's theme, or the group's theme if they're added inside a themed group, unless you choose a different theme in the picker.
 
-## Slide kinds
+## Slide types
 
-| Kind | What it holds | Built-in layouts |
+| Type | What it holds | Built-in layouts |
 |---|---|---|
 | **Text** | Up to three lines of text: **Heading**, **Body** and **Footer**. | Title (Centered, Left, Bottom), Body (Centered, Top, Bottom), Quote (Centered, Left), Lower third, Announcement |
 | **Scripture** | One verse, with its passage and translation. | Reference below, Reference above, Reference hidden, Title card |
